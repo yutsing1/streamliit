@@ -6,7 +6,7 @@ import pandas as pd
 from sklearn.metrics import mean_squared_error
 # %%
 # Locate the model and pick our model as "regressor"
-pickle_a=open("/Users/yuqingyang/Desktop/streamliit/5_pickle/car_price.pkl","rb")
+pickle_a=open("car_price.pkl","rb")
 regressor=pickle.load(pickle_a) 
 # %%
 st.title("Linear Regression App")
