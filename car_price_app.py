@@ -2,7 +2,7 @@
 import pickle
 import streamlit as st
 import pandas as pd
-from sklearn import metrics
+#from sklearn import metrics
 from sklearn.metrics import mean_squared_error
 # %%
 # Locate the model and pick our model as "regressor"
